@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=B612+Mono:wght@400;700&family=Open+Sans:ital,wght@1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+
+}
+body{
+
+    font-size: 100%;
+    background: url(/imagens/baner.png) no-repeat;
+    background-size: cover;
+}
+
+.esta{
+    font-family: 'B612 Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+
+.loki{
+    font-family: 'B612 Mono', monospace;
+    position: absolute;
+    width: 412px;
+    height: 229px;
+    right: 614px;
+    bottom: 499px;
+    
+    font-family: 'B612';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 117px;
+    color: #FFFFFF;
+    
+}
+
+.texto{
+    position: absolute;
+    width: 896px;
+    height: 99px;
+    left: 588px;
+    top: 449px;
+    
+    font-family: 'B612 Mono', monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    
+    
+    color: #FFFFFF;
+}
+
+.imagem-menor{
+    position: absolute;
+width: 188px;
+height: 267px;
+left: 290px;
+top: 422px;
+
+border-radius: 20px;
+}
+.relogio{
+position: absolute;
+width: 73px;
+left: 36.5rem;
+top: 34.33rem;
+color: black;
+
+
+
+}
+
+.ponteiro{
+    
+position: absolute;
+width: 24px;
+left: 38.3rem;
+top: 35.4rem;
+
+
+
+}
+
+
+.minutos{
+    position: absolute;
+    width: 54px;
+    left: 42.3rem;
+    top: 36.4rem;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'B612 Mono', monospace;
+    line-height: 29px;
+    
+    color: #FFFFFF;
+}
+
+.estrela-amarela1{
+    position: absolute;
+    width: 54px;
+    left: 56rem;
+    top: 36.4rem;
+    bottom: 40rem;
+    flex-direction: column;
+    align-items: center;
+    image-resolution: 23px;
+
+    
+}
+
+
+.estrela-amarela2{
+    position: absolute;
+    width: 54px;
+    left: 60rem;
+    top: 36.4rem;
+    bottom: 40rem;
+    flex-direction: column;
+    align-items: center;
+    image-resolution: 23px;
+
+    
+}
+
+
+.estrela-amarela3{
+    position: absolute;
+    width: 54px;
+    left: 64rem;
+    top: 36.4rem;
+    bottom: 40rem;
+    flex-direction: column;
+    align-items: center;
+    image-resolution: 23px;
+
+    
+}
+.estrela-amarela4{
+    position: absolute;
+    width: 54px;
+    left: 68rem;
+    top: 36.4rem;
+    bottom: 40rem;
+    flex-direction: column;
+    align-items: center;
+    image-resolution: 23px;
+
+    
+}
+.estrela-amarela5{
+    position: absolute;
+    width: 54px;
+    left: 72rem;
+    top: 36.4rem;
+    
+
+    
+}
+.ano{
+    position: absolute;
+
+    left: 88rem;
+    top: 37.4rem;
+    font-family: 'B612 Mono', monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 39px;
+    
+    
+    color: #FFFFFF;
+
+}
+
+.assista{
+display: flex;
+
+padding: 18px 57px;
+position: absolute;
+width: 299px;
+height: 82px;
+left: 616px;
+top: 716px;
+
+background: #0072D2;
+border-radius: 3px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+
+
+
+
+color: #FFFFFF;
+
+}
+.treiler{
+    display: flex;
+
+padding: 18px 87px;
+position: absolute;
+width: 299px;
+height: 82px;
+left: 976px;
+top: 716px;
+gap: 50px;
+
+
+background: #131318;
+border: 1px solid #FFFFFF;
+border-radius: 3px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+color: #FFFFFF;
+
+}
+.nomes{
+    position: absolute;
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+width: 149px;
+height: 152px;
+left: 96px;
+top: 96px;
+}
